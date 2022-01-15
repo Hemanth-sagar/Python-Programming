@@ -17,3 +17,24 @@ A
 A B 
 A B C 
 A B C D 
+
+# pattern 2
+n = int(input())
+i = 1
+while i <= n:
+    j = 1
+    x = ord('A') + n -1 # E
+    while j<= i:
+        print(chr(x - i + j),end=" ")
+        j = j+1
+    print()
+    i = i +1
+ output:
+    n = 5
+E
+D E
+C D E
+B C D E
+A B C D E
+
+# 
