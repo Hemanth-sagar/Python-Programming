@@ -1,3 +1,4 @@
+# pattern 1
 n = int(input())
 i = 1
 while i<=n:
@@ -21,6 +22,27 @@ A B C D
 # pattern 2
 n = int(input())
 i = 1
+while i<=n:
+    j = 1
+    x = ord('A') + i - 1
+    while j <= n:
+        print(chr(x+j-1),end=" ")
+        j=j+1
+    print()
+    i = i+1
+    
+ input:
+    n = 4
+ output:
+  
+A B C D 
+B C D E 
+C D E F 
+D E F G 
+
+# pattern 3
+n = int(input())
+i = 1
 while i <= n:
     j = 1
     x = ord('A') + n -1 # E
@@ -29,15 +51,16 @@ while i <= n:
         j = j+1
     print()
     i = i +1
- output:
+ input:
     n = 5
+ output:  
 E
 D E
 C D E
 B C D E
 A B C D E
 
-# pattern 3
+# pattern 4
 n = int(input())
 i = 1
 while i<=n:
