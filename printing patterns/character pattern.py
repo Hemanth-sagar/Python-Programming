@@ -40,7 +40,8 @@ B C D E
 C D E F 
 D E F G 
 
-# pattern 3
+# pattern 3 
+# intresting alphabets
 n = int(input())
 i = 1
 while i <= n:
