@@ -37,4 +37,22 @@ C D E
 B C D E
 A B C D E
 
-# 
+# pattern 3
+n = int(input())
+i = 1
+while i<=n:
+    j = 1
+    x = ord('A')
+    while j <= n:
+        print(chr(x+j-1),end=" ")
+        j=j+1
+    print()
+    i = i+1
+    
+ input:
+    n = 4
+ output:
+A B C D 
+A B C D 
+A B C D 
+A B C D 
