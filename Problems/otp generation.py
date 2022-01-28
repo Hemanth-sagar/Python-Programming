@@ -16,11 +16,8 @@ l=[]
 for i in range(1,len(s),2):
     l.append(int(s[i]))
 sql=[number ** 2 for number in l]
-f=""
-for i in sql:
-    f+=str(i)
-for i in range(4):
-    print(f[i],end="")
+f="".join(map(str,sql))
+print(f[0:4])
 
 Input: 5624381275
 
